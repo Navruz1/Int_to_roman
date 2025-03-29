@@ -19,3 +19,6 @@ def int_to_roman(num):
         num //= 10
         x *= 10
     return roman
+
+a = int(input('Введите целое число в диапазоне [1, 3999]: '))
+print(int_to_roman(a))
